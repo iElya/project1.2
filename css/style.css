@@ -1,0 +1,60 @@
+:root{
+    --color:rgba(179, 179, 2, 0.534);
+}
+.main{
+    width: 800px;
+    min-height: 600px;
+    background: white;
+    float: left;
+}
+.header{
+    width: 800px;
+    min-height: 70px;
+    background: rgba(179, 179, 2, 0.534);
+    float: left;
+    margin-bottom: 15px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    
+}
+.left{
+    width: 200px;
+    min-height: 530px;
+    background: var(--color);
+    float: left;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+.center{
+    width: 600px;
+    min-height: 530px;
+    background: white;
+    float: left;
+}
+.first{
+    width: 285px;
+    min-height: 430px;
+    background: var(--color);
+    float: left;
+    margin: 0px 15px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    
+}
+.right{
+    width: 285px;
+    min-height: 430px;
+    background: var(--color);
+    float: left;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
+.footer{
+    width: 585px;
+    min-height: 85px;
+    background-color: var(--color);
+    float: left;
+    margin: 15px 0px 0px 15px;
+    padding: 15px 15px;
+    box-sizing: border-box;
+}
